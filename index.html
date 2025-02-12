@@ -7,29 +7,29 @@
   </head>
   <body>  
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" class="header__img">
-      <a href="https://goal-life.com/page/method/matrix-eisenhower" class="header__info">
+      <img src="./eisenhower-matrix.jpg" class="header__img" alt="Eisenhower Matrix: task priorities based on urgency and importance">
+      <a href="https://goal-life.com/page/method/matrix-eisenhower" class="header__info" >
         Want more details?
       </a>
     </header>
     <main class="main">
       <section class="task new-task">
-        <h3 class="task__title">Add Item</h3>
+        <h2 class="task__title">Add Item</h2>
         <div class="task__input task__container">
           <input id="new-task" class="task__input task__input-text" type="text">
           <button class="task__button add">Add</button>
         </div>
       </section>
       <section class="task incompleted_tasks">
-        <h3 class="task__title">Todo</h3>
+        <h2 class="task__title">Todo</h2>
         <ul class="task__list list_incompleted">
           <li class="task__list-items">
             <input type="checkbox" class="task__input task__input-checkbox">
             <label class="task__label">Pay Bills</label>
             <input type="text" class="task__input task__input-text">
             <button class="task__button edit">Edit</button>
-            <button class="task__button delete">
-              <img src="./remove.svg" class="task__delete-img">
+            <button class="task__button delete aria-label="Delete task">
+              <img src="./remove.svg" class="task__delete-img" alt="">
             </button>
           </li>
           <li class="task__list-items editing">
@@ -37,22 +37,22 @@
             <label class="task__label">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task__input task__input-text">
             <button class="task__button edit">Save</button>
-            <button class="task__button delete">
-              <img src="./remove.svg" class="task__delete-img">
+            <button class="task__button delete" aria-label="Delete task">
+              <img src="./remove.svg" class="task__delete-img" alt="">
             </button>
           </li>
         </ul>
       </section>
       <section class="task completed-tasks">
-        <h3 class="task__title">Completed</h3>
+        <h2 class="task__title">Completed</h2>
         <ul class="task__list completed">
           <li class="task__list-items">
             <input type="checkbox" class="task__input task__input-checkbox" checked>
             <label class="task__label">See the Doctor</label>
             <input type="text" class="task__input task__input-text">
             <button class="task__button edit">Edit</button>
-            <button class="task__button delete">
-              <img src="./remove.svg" class="task__delete-img">
+            <button class="task__button delete" aria-label="Delete task">
+              <img src="./remove.svg" class="task__delete-img" alt="">
             </button>
           </li>
         </ul>
